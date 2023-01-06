@@ -1,0 +1,296 @@
+body,h1,ul,li,img,p{
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	text-decoration-color: none;
+}
+a :visited{
+	color: #005555;
+}
+body{
+	background-color: lightgray;
+}
+.menu-ust{
+	background-color: gray;
+	height: 60px;
+}
+ 
+#logo{
+	float: left;
+	width: 350px;
+	margin-left: 30px;
+}
+#logo h1{
+	color: white;
+	line-height: 60px;
+	
+}
+#logo a{
+	color: white;
+	text-decoration: none;
+}
+.menu{
+	float: right;
+	margin-right: 50px;
+}
+ 
+.menu li{
+       
+    list-style-type: none;
+	float: left;
+	line-height: 60px;
+}
+     
+.menu ul li a{
+		 
+       text-decoration: none;
+       color: whitesmoke;
+	   font-weight: 900;
+       display: block;
+       text-align: center;
+       transition: 1s;     
+	   font-family: calibri,arial,verdana;
+	   font-size: 20px;
+	   width: 180px;
+	   float: left;line-height: 60px;
+	
+	}
+          
+     .menu a:hover{
+      
+		background-color: #5FD367; 
+       	color: #005555;       
+       
+     }
+.sayfa{
+	width: 960px;
+	margin: 5px auto;
+}
+
+.img{
+    float: left;
+
+}
+.yazi{
+	float:right ;
+	width: 540px;
+	margin-left: 20px;
+}
+.yazi h1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-align: center;
+}
+.yazi p{
+    margin-right: 5px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+}
+.yazi a {
+	text-decoration: none;
+}
+ 
+.gri{
+	background-color: gray;
+	height: 40px;
+}
+.gri p{
+	font-size: 16pt;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+}
+ 
+.card{
+	width: 300px;
+	float: left;
+	margin:10px;
+}
+.kutu p{
+    text-align: center;
+}
+.kutu h1{
+    text-align: center;
+}
+.card img{
+	margin: auto;
+}
+.alt{
+	clear: both;
+	background-color: gray;
+	height: 50px;
+}
+.alt h1{
+	line-height: 50px;
+	text-align: center;
+	color: white;
+}
+.temizle{
+	clear: both;
+}
+.Scard{
+	float: left;
+	background-color: azure;
+	width: 300px;
+	height: 960px;
+	margin-left: 10%;
+}
+.Skutu{
+	text-align: center;
+	color: black;
+	background-color: azure;
+	line-height: 20px;
+}
+.Sbaşlik{
+	color: rgb(13, 113, 146);
+}
+.Skutu img{
+	width: 60px;
+    height: 60px;
+}
+.Skutu ol{
+	color :#005555;
+	font-size: large;
+	border: 1px solid;
+}
+.Skutu li{	
+	border: 1px solid;
+}
+.katil{
+      font-family: Arial, Helvetica, sans-serif;	
+}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  margin:0px 10px 0px 0px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+@media screen and (max-width: 599px) {
+	.metincontainer{
+		float: left;
+		margin-left: 10px;
+	}
+}
+.footer { background:#222222;
+		width:100%; 
+		height:269px;
+		float:left;
+		color:white; 
+		font-family:arial;
+	}
+.footer #kutu b {
+	font-size:14px;
+}
+.footer_container{width:768px;
+	 height:175px;
+	  margin:30px auto;
+}
+#footerul {
+	list-style-type:none;
+	margin:17px 0;
+	padding:0px;
+}
+.fkutu {
+	width:auto;
+	 height:125px; 
+	 float:left;
+	}
+#footerul li {
+	float:left;
+	font-family:tahoma;
+	 font-size:12px;
+	 margin-bottom:8px; 
+	clear:left;
+	 color:#949798; 
+	}
+	#footerul li a {
+		text-decoration: none;
+	}
+.fkutu:last-child li {float:left;
+	clear:none;
+	margin-right:10px;}
+.metincontainer{
+	width: 1200px;
+	height: 70%;
+	background-color: azure;
+	margin-left: 175px ;
+	margin-bottom: 10px;
+}
+.metincontainer{
+	float: left;
+}
+.onarka{
+	text-align: center;
+	font-size: x-large;
+	font-family:tahoma;
+}
+.onarka{
+	margin-top: 30px;
+	text-decoration-line: none;
+	text-decoration: none;
+}
+.metin{
+	margin-top: 30px;
+	text-align: left;
+	font-size: large;
+	font: italic;
+	line-height: 1.8;
+}
+
+
+ 
